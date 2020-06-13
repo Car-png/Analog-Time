@@ -49,12 +49,12 @@ body{
       height: 160px;
 }
 
-.clock .min .mn{
+.clock .min, .mn{
       width: 190px;
       height: 190px;
 }
 
-.clock .sec .sc{
+.clock .sec, .sc{
       width: 230px;
       height: 230px;
 }
@@ -81,7 +81,7 @@ body{
       content: '';
       position: absolute;
       width: 4px;
-      height: 80px;
+      height: 90px;
       background-color: #fff;
       z-index: 11;
       border-radius: 6px 6px 0 0;
